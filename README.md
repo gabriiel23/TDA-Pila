@@ -1,19 +1,21 @@
-Verificación de Balanceo de Paréntesis
+Verificación de Balanceo de Paréntesis:
+
 Este es un ejercicio simple en Python que verifica si una expresión matemática tiene los paréntesis correctamente balanceados. Utiliza el concepto de pilas para realizar esta verificación.
 
-Descripción
+Descripción:
+
 El archivo verificacion_balance.py contiene el código Python que implementa la verificación de balanceo de paréntesis. El usuario puede ingresar una expresión matemática con paréntesis, y el programa verificará si los paréntesis están balanceados.
 
-Cómo Funciona?
+Cómo Funciona?.
+
 El programa utiliza una pila para realizar la verificación de balanceo de paréntesis.
+- Recorre cada carácter de la expresión ingresada.
+- Si encuentra un paréntesis de apertura, lo agrega a la pila.
+- Si encuentra un paréntesis de cierre, verifica si coincide con el paréntesis superior de la pila.
+- Al final, si la pila está vacía, significa que los paréntesis están balanceados.
 
-Recorre cada carácter de la expresión ingresada.
-Si encuentra un paréntesis de apertura, lo agrega a la pila.
-Si encuentra un paréntesis de cierre, verifica si coincide con el paréntesis superior de la pila.
-Al final, si la pila está vacía, significa que los paréntesis están balanceados.
-Ejecución
+Ejecución:
 Para ejecutar el programa:
-
 - Descarga el archivo verificacion_balance.py.
 - Abre una terminal y navega hasta el directorio donde se encuentra el archivo.
 - Ejecuta el comando python verificacion_balance.py.
